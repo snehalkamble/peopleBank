@@ -37,3 +37,9 @@ There is no code duplication since we only write NEW code for Dolphin.
 Also, no overhead as we reuse old code like in this case, we reuse the SWIM interface.
 
 -----------------------------------------
+
+E - Counting animals
+
+Code - CountingAnimals.java
+
+-----------------------------------------

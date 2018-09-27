@@ -96,6 +96,9 @@ public class Solution {
 		Butterfly newButterfly = new Butterfly(caterpillar);
 		newButterfly.fly();
 		
+		//---------Solution for E-------------
+		System.out.println("-------Counting Animals---------");
+		CountingAnimals.countAnimals();
 	}
 
 }
