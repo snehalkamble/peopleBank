@@ -43,3 +43,14 @@ E - Counting animals
 Code - CountingAnimals.java
 
 -----------------------------------------
+
+BONUS
+
+1. Could not get time
+
+2. RESTful API to get Animal behavior.
+
+--Implemented in: AnimalController.java
+--Spring Boot start up class: AnimalAppApplication.java
+--Localhost URL for RESTFul API: http://localhost:8080/animal?type=duck
+
