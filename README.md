@@ -25,3 +25,15 @@ Without Inheritance, a separate Rooster class can be written which DOES NOT exte
 A.4.d
 Parrot can be kept maintainable using ADAPTOR pattern. (ParrotAdaptor.java) 
 As and when new behaviors are needed for the Parrot, the new behavior can be passed intto the Adaptor, and the Adaptor will behave based on the passed object.
+
+
+-----------------------------------------
+B.3.a
+We can model a dolphin that swims without inheriting from a fish class.
+Create a Dolphin class without inheritance, then add a SWIM behavior to it.
+
+B.3.b
+There is no code duplication since we only write NEW code for Dolphin.
+Also, no overhead as we reuse old code like in this case, we reuse the SWIM interface.
+
+-----------------------------------------
