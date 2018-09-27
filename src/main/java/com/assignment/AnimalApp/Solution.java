@@ -1,7 +1,9 @@
 package com.assignment.AnimalApp;
 
 import com.assignment.AnimalApp.impl.Bird;
+import com.assignment.AnimalApp.impl.Butterfly;
 import com.assignment.AnimalApp.impl.Cat;
+import com.assignment.AnimalApp.impl.Caterpillar;
 import com.assignment.AnimalApp.impl.Chicken;
 import com.assignment.AnimalApp.impl.Clownfish;
 import com.assignment.AnimalApp.impl.Dog;
@@ -80,7 +82,20 @@ public class Solution {
 		Dolphin dolphin = new Dolphin();
 		dolphin.swim();
 		
-
+		
+		//---------Solution for D-------------
+		System.out.println("-------Butterfly---------");
+		Butterfly butterfly = new Butterfly();
+		butterfly.fly();
+		butterfly.sing();
+		System.out.println("-------Caterpillar---------");
+		Caterpillar caterpillar = new Caterpillar();
+		caterpillar.fly();
+		caterpillar.walk();
+		//Caterpillar changes to Butterfly
+		Butterfly newButterfly = new Butterfly(caterpillar);
+		newButterfly.fly();
+		
 	}
 
 }
