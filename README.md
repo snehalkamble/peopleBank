@@ -1,5 +1,4 @@
-# peopleBank --> Assignmeent
-Assignment for PeopleBank
+# PeopleBank Assignment
 
 
 -----------------------------------------
